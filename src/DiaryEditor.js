@@ -2,6 +2,10 @@ import React, { useEffect, useRef, useState } from "react";
 
 const DiaryEditor = ({onCreate}) => {
 
+    useEffect(() => {
+        console.log()
+    })
+
     // 돔 요소 접근하는 useRef 사용
     const authorInput = useRef();
     const contentInput = useRef();
